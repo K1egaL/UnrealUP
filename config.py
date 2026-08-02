@@ -1,0 +1,19 @@
+from pathlib import Path
+
+APP_NAME = "UnrealUP"
+APP_VERSION = "0.1.0"
+
+WINDOW_WIDTH = 1040
+WINDOW_HEIGHT = 820
+WINDOW_MIN_WIDTH = 940
+WINDOW_MIN_HEIGHT = 720
+
+ROOT_DIR = Path(__file__).parent
+ASSETS_DIR = ROOT_DIR / "assets"
+DOWNLOADS_DIR = ROOT_DIR / "downloads"
+FFMPEG_DIR = ROOT_DIR / "ffmpeg"
+
+FFMPEG_PATH = FFMPEG_DIR / "ffmpeg.exe"
+FFPROBE_PATH = FFMPEG_DIR / "ffprobe.exe"
+
+UI_REFRESH_MS = 100

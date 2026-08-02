@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual env
+.venv/
+venv/
+env/
+
+# Build
+build/
+dist/
+*.spec
+
+# Logs / runtime data
+logs/
+downloads/
+settings.json
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Test / cache
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Secrets / local env
+.env
+.env.*
+
+# Temporary
+*.tmp
+*.bak
+
+# FFmpeg binaries
+ffmpeg/*.exe
+ffmpeg/*.dll
+ffmpeg/*.zip
